@@ -33,6 +33,6 @@ for n_value in range(nombre_de_formule_de_gael_a_verifier):
     else: print("La formule de Gaël ne fonctionne pas")
 
 if nombre_de_formule_de_gael_qui_on_fonctionner == nombre_de_formule_de_gael_a_verifier:
-    print(f"\n\nLa formule de Gaël a fonctionner pour tout les nombres naturels de 1 à {str(nombre_de_formule_de_gael_a_verifier)}")
+    print(f"\n\nLa formule de Gaël a fonctionnée pour tous les nombres naturels de 1 à {str(nombre_de_formule_de_gael_a_verifier)}")
 
-else: print(f"\n\nLa formule de Gaël n'a pas fonctionner pour tout les nombres naturels de 0 à {str(nombre_de_formule_de_gael_a_verifier)}\n{str(nombre_de_formule_de_gael_a_verifier-nombre_de_formule_de_gael_qui_on_fonctionner)} nombres naturels on fonctionnés avec la formule de Gaël")
+else: print(f"\n\nLa formule de Gaël n'a pas fonctionnée pour tous les nombres naturels de 0 à {str(nombre_de_formule_de_gael_a_verifier)}\n{str(nombre_de_formule_de_gael_a_verifier-nombre_de_formule_de_gael_qui_on_fonctionner)} nombres naturels ont fonctionnés avec la formule de Gaël")
